@@ -11,3 +11,6 @@ steps:
     id: 'Run main script'
     entrypoint: 'python'
     args: ['main.py']
+
+options:
+  logging: CLOUD_LOGGING_ONLY
